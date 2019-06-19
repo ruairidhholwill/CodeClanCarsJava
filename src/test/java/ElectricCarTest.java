@@ -60,4 +60,9 @@ public class ElectricCarTest {
         electricCar.setEngineType(EngineType.DIESEL);
         assertEquals(EngineType.DIESEL, electricCar.getEngineType());
     }
+
+    @Test
+    public void canDrive(){
+        assertEquals( ".... bmm bmm lor ... lor aiiiine", electricCar.drive());
+    }
 }
